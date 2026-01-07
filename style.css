@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f6f6f6;
+}
+.container{
+    max-width:1350px ;
+    margin: auto;
+}
+.my-btn{
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 600;
+    border: 1px solid #006a50;
+    background-color: white;
+    color: #006a50;
+}
+.my-btn-2{
+    border-radius: 8px;
+    font-size: 600;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 12px 25px;
+}
+header{
+    background-color: yellow;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.link-parent{
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+.link-parent a{
+    text-decoration: none;
+}
+.hero-parent{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color:rgba(198, 228, 214, 1) ;
+    border-radius: 25px;
+    align-items: center;
+    padding: 70px;
+    margin: 20px auto;
+}
+.hero-parent h2{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero-parent p{
+    font-weight: 700;
+    font-size: 56px;
+    color:rgba(14, 14, 14, 1);
+    margin: 20px 0;
+}
+.pillars-container{
+    display: flex;
+    gap: 25px;
+}
+.pillar-card{
+    background-color: #ffffff;
+    padding:25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px #eee;
+    transition: transform 0.3s;
+}
+.pillar-card:hover {
+    transform: translateY(-6px);
+}
+.pillar-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+.pillars{
+    padding: 60px 80px;
+    background-color: #fff;
+}
+.pillars h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #111;
+}
+.pillar-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.pillar-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+.vision-container{
+    display: flex;
+    background-color: navy;
+    padding:25px;
+    margin: 20px auto;
+    border-radius: 25px;
+    gap: 20px;
+}
+.vision {
+    background-color: #ffffff;
+    padding: 60px 80px;
+}
+
+.vision h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.vision-text {
+    max-width: 900px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
